@@ -1,0 +1,61 @@
+0) Normalizar dados:
+- Retirar acentos e ç
+- Retirar pontos
+- Modificar os logradouros para suas abreviações:
+
+ALAMEDA => AL
+APTO, APTOS, APART, APARTAMENTO, APARTAMENTOS => AP
+BLOCO => BL
+CONJUNTO => CJ
+CASA, CASAS => CS
+EDIFÍCIO => EDF
+LOJA, LOJAS => LJ
+LOTE, LOTES, LOTEAMENTO, LOTEAM, LOT => LT
+QUADRA, QUAD, QAD, QD => Q
+SALA, SALAS => SL
+TORRE => TR
+
+RUA
+RODOVIA
+AVENIDA
+ESTRADA
+VILA
+ZONA
+PARQUE
+PRAÇA
+LARGO
+
+
+
+
+1) 1a palavra é nro:
+- 1a = end e
+- próx. numérica = número
+- tudo após = complemento
+
+
+2) 1a palavra é NÃO-nro:
+2.1) 2a palavra é nro:
+- 2a = end e:
+- próx numérica = número
+- tudo após = complemento
+
+2.2) 2a palavra é NÃO-nro:
+2.2.1) 2a é ESTADO/BR ou 1a é ROD:
+- 3a = end
+- próx. numérica = número
+- tudo após = complemento
+
+2.2.2) 2a é NÃO-ESTADO/BR:
+- 3a = end
+- próx. numérica = número
+- tudo após = complemento
+
+
+
+3) Se palavra antes do número = [AL, AP, BL, CJ, CS, EDF, KM, LJ, LT, Q, SL, TR]:
+- puxar a palavra pro número
+
+
+
+
